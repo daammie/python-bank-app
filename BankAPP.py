@@ -561,6 +561,18 @@ finally:
 
 
 
+
+
+
+### after getting your data
+## clean
+## split (detect: the features, then the target )
+
+variance
+co variance
+standard deviation
+mean
+learn in relation to model development
         
 
 

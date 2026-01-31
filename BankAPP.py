@@ -1,35 +1,3 @@
-# Project Overview:
-# You are tasked with creating a command-line banking application that simulates the basic operations
-# of a real bank. This application will allow users to register, log in, and perform various banking transactions. Your application will use SQL to interact with a database, ensuring data persistence
-# and secure handling of user information. 
-# Objective: The goal of this project is to design and implement a functional banking application that securely handles user data and transactions. You will gain hands-on experience in integrating Python with SQL, managing user authentication, and performing basic banking operations like deposits, withdrawals, and balance checks.
-
-# Operations:
-# Your application should support the following operations:
-# 1. User Registration:
-# - Users should be able to create a new account by providing necessary details such as full name, username, password, and initial deposit and be assigned an account number automatically.
-# - Store user data securely in the database.
-
-# 2. User Login:
-# - Registered users should be able to log in using their username and password.
-# - Validate credentials against the data stored in the database.
-
-# 3. Banking Transactions:
-# - Deposit: Allow logged in users to deposit money into their account.
-# - Withdrawal: Allow logged in users to withdraw money, ensuring sufficient balance.
-# - Balance Inquiry: Display the current balance of the logged in user's account.
-# - Transaction History: Provide a history of all transactions performed by the logged in user.
-# - Transfer: Allow logged in users to transfer money to other users’ accounts using their account    
-#   Number.
-# - Account Details: The user should be able to check their account details at once i.e their full name, username, account number.
-
-
-# Duration: 11:01 - 11:31am
-
-# import time
-# print(dir(time)), use sleep
-
-
 
 
 import re

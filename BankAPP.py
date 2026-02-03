@@ -19,7 +19,7 @@ cursor = conn.cursor()
 
 cursor.execute('''
                 
-             create table if not exists USERS(
+             CREATE TABLE IF NOT EXISTS USERS(
              id INTEGER PRIMARY KEY AUTOINCREMENT,  
              full_name TEXT NOT NULL,
              username TEXT NOT NULL UNIQUE,
@@ -36,7 +36,7 @@ cursor.execute('''
 
 cursor.execute('''
                
-                CREATE TABLE IF NOT EXISTS TRANSACTIONS(
+             CREATE TABLE IF NOT EXISTS TRANSACTIONS(
              id INTEGER PRIMARY KEY AUTOINCREMENT,
              user_id INTEGER NOT NULL, 
              transaction_type TEXT NOT NULL,
@@ -175,6 +175,8 @@ def sign_up():
 def gen_acnt_num():
    num = random.randint(100000000, 900000000)
    return f"0{num}"
+
+
 
 
 def log_in():
@@ -379,7 +381,6 @@ def transaction_history(username):
 
 
       
-   
 
 def transfer(username):
    
